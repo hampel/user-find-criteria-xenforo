@@ -5,6 +5,16 @@ use XF\Mvc\ParameterBag;
 
 class Users extends XFCP_Users
 {
+	/**
+	 * @api-desc Finds a single user based on matching criteria
+	 *
+	 * @api-in int $user_id
+	 * @api-in str $email
+	 * @api-in str $username
+	 *
+	 * @api-out User $user The user that matched the user_id, or email or username
+	 * @api-out Urls[] $urls A list of urls (api, public, admin) to this user's profile
+	 */
 	public function actionGetFindCriteria(ParameterBag $params)
 	{
 		$user_id = $this->filter('user_id', 'int');
