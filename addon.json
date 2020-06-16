@@ -1,14 +1,17 @@
 {
     "legacy_addon_id": "HelpSpot",
     "title": "API: Find a User by Criteria",
-    "description": "",
+    "description": "Adds an API endpoint to find a user by criteria",
     "version_id": 1000031,
     "version_string": "1.0.0 Beta 1",
-    "dev": "",
-    "dev_url": "",
+    "dev": "Simon Hampel",
+    "dev_url": "https://bitbucket.org/hampel/",
     "faq_url": "",
-    "support_url": "",
-    "extra_urls": [],
+    "support_url": "https://bitbucket.org/hampel/user-find-criteria-xenforo/issues",
+    "extra_urls": {
+        "Git Repository": "https://bitbucket.org/hampel/user-find-criteria-xenforo",
+        "Twitter": "https://twitter.com/SimonHampel"
+    },
     "require": [],
     "icon": ""
 }
