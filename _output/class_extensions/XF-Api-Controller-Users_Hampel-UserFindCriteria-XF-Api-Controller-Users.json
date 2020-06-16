@@ -1,0 +1,6 @@
+{
+    "from_class": "XF\\Api\\Controller\\Users",
+    "to_class": "Hampel\\UserFindCriteria\\XF\\Api\\Controller\\Users",
+    "execute_order": 10,
+    "active": true
+}
