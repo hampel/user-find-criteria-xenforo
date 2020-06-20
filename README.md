@@ -1,9 +1,14 @@
-API: User Find Criteria for XenForo 2.x
-=======================================
+API: Find a User by Criteria for XenForo 2.x
+============================================
 
 This XenForo 2.x addon adds an API endpoint to find a user by criteria
 
 Possible criteria are:
+* user_id
+* email
+* username
+
+If multiple criteria are specified, they are searched in the order listed above and the first match found is returned.
 
 By [Simon Hampel](https://twitter.com/SimonHampel).
 
