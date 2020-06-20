@@ -1,9 +1,9 @@
 {
     "legacy_addon_id": "HelpSpot",
-    "title": "API: Find a User by Criteria",
-    "description": "Adds an API endpoint to find a user by criteria",
-    "version_id": 1000031,
-    "version_string": "1.0.0 Beta 1",
+    "title": "API: Find a User by Criteria endpoint",
+    "description": "Adds an API endpoint to find a user by criteria: user_id, email, or username",
+    "version_id": 1000070,
+    "version_string": "1.0.0",
     "dev": "Simon Hampel",
     "dev_url": "https://bitbucket.org/hampel/",
     "faq_url": "",
@@ -13,5 +13,5 @@
         "Twitter": "https://twitter.com/SimonHampel"
     },
     "require": [],
-    "icon": ""
+    "icon": "fa-user"
 }
