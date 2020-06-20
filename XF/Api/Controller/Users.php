@@ -36,7 +36,7 @@ class Users extends XFCP_Users
 		}
 
 		// if we didn't succeed with user_id, try email, if we have it
-		if (!$user)
+		if (!$user && $email)
 		{
 			/** @var \XF\Finder\User $finder */
 			$finder = $this->finder('XF:User');
