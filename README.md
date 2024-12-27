@@ -10,7 +10,7 @@ Possible criteria are:
 
 If multiple criteria are specified, they are searched in the order listed above and the first match found is returned.
 
-By [Simon Hampel](https://twitter.com/SimonHampel).
+By [Simon Hampel](https://xenforo.com/community/members/sim.4264/).
 
 Requirements
 ------------
