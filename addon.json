@@ -7,10 +7,10 @@
     "dev": "Simon Hampel",
     "dev_url": "https://xenforo.com/community/members/sim.4264/",
     "faq_url": "",
-    "support_url": "https://bitbucket.org/hampel/user-find-criteria-xenforo/issues",
+    "support_url": "https://xenforo.com/community/threads/api-endpoint-find-a-user-by-criteria.181888/",
     "extra_urls": {
-        "Git Repository": "https://bitbucket.org/hampel/user-find-criteria-xenforo",
-        "Twitter": "https://twitter.com/SimonHampel"
+        "Addon": "https://xenforo.com/community/resources/api-endpoint-find-a-user-by-criteria.7876/",
+        "Git Repository": "https://github.com/hampel/user-find-criteria-xenforo"
     },
     "require": [],
     "icon": "fa-user"
