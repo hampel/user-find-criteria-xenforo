@@ -68,9 +68,9 @@ class Users extends XFCP_Users
 		$result = [
 			'user' => $user->toApiResult(Entity::VERBOSITY_VERBOSE),
 			'urls' => [
-				'api' => $this->buildLink('full:users', $user),
-				'public' => $this->app->router('public')->buildLink('full:members', $user),
-				'admin' => $this->app->router('admin')->buildLink('full:users/edit', $user),
+				'api' => $this->app->router('api')->buildLink('canonical:users', $user),
+				'public' => $this->app->router('public')->buildLink('canonical:members', $user),
+				'admin' => $this->app->router('admin')->buildLink('canonical:users/edit', $user),
 			]
 		];
 
